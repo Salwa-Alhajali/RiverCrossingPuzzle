@@ -3,8 +3,11 @@
 Welcome to the **River Crossing Puzzle**!  
 Your mission? Get a human, a mouse, a cat, and a piece of cheese across the river safely... without anyone eating anyone else! 🧀🐭🐱
 
-![River Game]()
----
+<div align="center">
+  <img src="River-Game.png" alt="Game Screenshot" width="1000" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.5);">
+  <br>
+  <em>Can you outsmart the hungry cat and sneaky mouse? 🐱🧀</em>
+</div>
 
 ## 🎮 What’s the Game?
 
