@@ -1,4 +1,4 @@
-# 🚤 River Game: Save the Day!
+# 🚤 River Crossing Game: Save the Day!
 
 Welcome to the **River Crossing Puzzle**!  
 Your mission? Get a human, a mouse, a cat, and a piece of cheese across the river safely... without anyone eating anyone else! 🧀🐭🐱
@@ -12,32 +12,42 @@ Your mission? Get a human, a mouse, a cat, and a piece of cheese across the rive
 ## 🎮 What’s the Game?
 
 This is a fun and challenging **console game** written in **C++**.  
-You control a human trying to ferry themselves and their three mischievous companions across a river. But beware:
+A classic logic puzzle with a twist! Guide four characters across the river while preventing:
+- 🐱 **Cat** from eating 🐭 **Mouse**
+- 🐭 **Mouse** from eating 🧀 **Cheese**
+- ⏱️ All within **15 moves**!
 
-- The **cat** wants to eat the **mouse**! 🐱➡️🐭  
-- The **mouse** wants to eat the **cheese**! 🐭➡️🧀  
-- You only have **15 moves** to get everyone across safely. ⏱️
+```diff
++ Perfect solution exists in just 7 moves!
+```
 
 ---
 
 ## 🕹️ How to Play
 
+### 🎮 Controls
 Once you start the game, you'll get a menu like this:
 
 ```
-1. Move the human alone  
-2. Move the human and the mouse  
-3. Move the human and the cat  
-4. Move the human and the cheese
+[1] Move Human alone      
+[2] Move Human + Mouse         
+[3] Move Human + Cat           
+[4] Move Human + Cheese        
 ```
 
 Use the number keys to choose a move. BUT:
 
-❌ You can’t leave the **cat and mouse** alone together  
-❌ You can’t leave the **mouse and cheese** alone together  
-✅ Only the human can row the boat!
+### 📏 Rules
+
+| ✅ Must Haves       | ❌ Must Not Haves         |
+|--------------------|--------------------------|
+| Only the human can row the boat | Cat and Mouse alone together |
+| Max of 15 moves     | Mouse and Cheese alone together |
+
 
 Think carefully and plan your moves! 🧠
+
+---
 
 
 
@@ -51,13 +61,14 @@ The game uses simple **ASCII art** to show where each character is after every m
 
 ---
 
-## ✅ Winning the Game
+## 🏆 Achievements
 
-Win by moving everyone across without breaking the rules.  
-There are some cool endings based on how many moves you took:
+| 🏅 Badge        | 🔓 Condition               |
+|----------------|----------------------------|
+| 🧠 Mastermind   | Solve the puzzle in 7 moves|
+| ⏳ Close Call   | Win on the 15th move       |
+| 😅 Lucky        | Break rules but somehow win|
 
-- 🏆 **Perfect win** in 7 moves? You’re a genius!
-- 😢 15 moves and still not done? Better luck next time...
 
 ---
 
@@ -85,12 +96,17 @@ Enjoy the puzzle! 🤓
 ```
 📄 river_game.cpp   → Main game code  
 📄 README.md        → This file (game instructions & info)
+🎨 River-Game.png   → Promotional artwork 
+
 ```
 
 ---
 
-## 🙌 Made With Love
 
-Built by someone who loves puzzles, programming, and storytelling.  
-Let the cat, mouse, and cheese live in peace — thanks to you! 💖
+## 📜 Credits
+
+Developed by Salwa Alhajali with ❤️ using:
+- C++17
+- Terminal magic ✨
+- Classic logic puzzle fun 🧩
 
